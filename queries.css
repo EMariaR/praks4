@@ -1,0 +1,279 @@
+
+@media only screen and (max-width: 1200px) {
+
+header {
+	height: 90vh;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.tiitel {
+	margin-left: 100px;
+	margin-top: 250px;
+}
+
+.tekst {
+	margin-left: 100px;
+	margin-top: 330px;
+}
+
+.mission-content p {
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+}
+
+.flex-container {
+	margin-left: 290px;
+}
+
+.tours-pilt {
+	height: 700px;
+	width: 700px;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+.logo, .tiitel, .tekst, .nupp, {
+	margin-left: 0px;
+}
+
+.nav ul {
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.mission-content h2 {
+	margin-top: 30px;
+}
+
+.mission-content p {
+	padding: 5px;
+}
+
+.flex-container {
+	margin-left: 200px;
+}
+
+.flex-item img {
+    width: 250px;
+    height: auto;
+}
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.logo {
+	margin-left: 30px;
+}
+
+.tiitel {
+	margin-left: 30px;
+}
+
+.tekst {
+	margin-left: 30px;
+}
+
+.nupp {
+	margin-left: 30px;
+}
+
+.nav ul {
+	margin-top: 40px;
+	margin-right: 20px;
+}
+
+.mission {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+
+.mission-pilt {
+	height: 700px;
+	width: 700px;
+	padding-right: 25px;
+}
+
+.img-col {
+	max-width: 100%;
+}
+
+.mission-content h2 {
+	font-size: 45px;
+	padding: 1px;
+	margin-top: 25px;
+}
+
+.mission-content p {
+	font-size: 17px;
+	padding-top: 2px;
+}
+
+.flex-container {
+	margin-left: 80px;
+}
+
+.flex-item img {
+    width: 200px;
+    height: auto;
+}
+
+.flex-item h4 {
+	font-size: 25px;
+}
+
+.flex-item p {
+	font-size: 15px;
+}
+
+.tours {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tours-pilt {
+	height: 500px;
+	width: 500px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.img-col {
+	max-width: 50%;
+}
+
+.tours-content h2 {
+	text-align: center;
+	margin-top: 0px;
+	padding-bottom: 2px;
+}
+
+.tours-content p {
+	margin-left: 25px;	
+}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+.tiitel {
+	font-size: 40px;
+	margin-left: 30px;
+	margin-top: 200px;
+}
+
+.tekst {
+	margin-left: 30px;
+	margin-top: 280px;
+}
+
+.nupp {
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+.nav ul {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 85px;
+}
+
+.mission {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.mission-pilt {
+	height: 300px;
+	width: 300px;
+	margin-left: 0px;
+}
+
+.mission-content h2 {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	margin-left: 20px;
+}
+
+.mission-content p {
+	font-size: 17px;
+	padding: 3px;
+	margin-left: 20px;
+}
+
+.juustud h2 {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 40px;
+}
+	
+.flex-container {
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	width: 420px;
+}
+
+.flex-item img {
+    width: 200px;
+    height: auto;
+}
+
+.flex-item h4 {
+	font-size: 20px;
+}
+
+.flex-item p {
+	font-size: 15px;
+}
+
+.tours {
+	flex-direction: column-reverse;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.tours-pilt {
+	margin-right: 300px;
+	padding-top: 10x;
+	padding-bottom: 3px;
+}
+
+.img-col {
+	max-width: 100%;
+}
+
+.tours-content h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 22px;
+	padding-bottom: 2px;
+}
+
+.tours-content p {
+	font-size: 17px;	
+	text-align: center;
+	padding-bottom: 2px;
+}
+	
+}
+	
